@@ -4,6 +4,9 @@ import Header from "@/components/Header";
 import Benefits from "@/components/Benefits";
 import Collaboration from "@/components/Collaboration";
 import Services from "@/components/Services";
+import Pricing from "@/components/Pricing";
+import Footer from "@/components/Footer";
+import Roadmap from "@/components/Roadmap";
 
 export default function Home() {
   return (
@@ -14,6 +17,9 @@ export default function Home() {
         <Benefits />
         <Collaboration />
         <Services />
+        <Pricing />
+        <Roadmap />
+        <Footer />
       </div>
 
       <ButtonGradient />

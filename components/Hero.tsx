@@ -50,7 +50,9 @@ const Hero = () => {
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:[1024/490]">
                 <Image
-                  src="/assets/hero/robot.jpg"
+                  quality={100}
+                  priority
+                  src="/assets/hero/cyber-girl.webp"
                   width={1024}
                   height={490}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"

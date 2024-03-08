@@ -61,6 +61,8 @@ const Services = () => {
                 <Image
                   src="/assets/services/service-2.png"
                   className="h-full w-full object-cover"
+                  priority
+                  quality={100}
                   width={630}
                   height={750}
                   alt="Robot"
@@ -107,8 +109,10 @@ const Services = () => {
               </div>
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <Image
-                  src="/assets/services/service-3.png"
+                  src="/assets/services/service-3.jpg"
                   className="w-full h-full object-cover"
+                  priority
+                  quality={100}
                   width={520}
                   height={400}
                   alt="Scary robot"
